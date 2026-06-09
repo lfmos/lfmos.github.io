@@ -1,8 +1,4 @@
-*, *::before, *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
   --bg:       #1a1a1a;
@@ -373,4 +369,53 @@ footer span b { color: var(--yellow); font-weight: 400; }
   .hero-name { font-size: 32px; }
   nav { flex-direction: column; gap: 12px; }
   .nav-links { gap: 16px; }
+}
+
+/* ── EXPERIÊNCIA PRÁTICA ── */
+.exp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+.exp-card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  padding: 20px 20px 20px 24px;
+  border-radius: 2px;
+  position: relative;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  transition: border-color .2s;
+}
+.exp-card:hover { border-color: var(--yellow); }
+.exp-accent {
+  position: absolute;
+  top: 0; left: 0;
+  width: 3px; height: 100%;
+  background: var(--yellow);
+  border-radius: 2px 0 0 2px;
+}
+.exp-icon {
+  font-size: 18px;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-top: 3px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--yellow);
+}
+.exp-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 6px;
+}
+.exp-desc {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.6;
 }
