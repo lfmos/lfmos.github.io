@@ -484,3 +484,147 @@ footer span b { color: var(--yellow); font-weight: 400; }
     gap: 4px;
   }
 }
+
+/* ── KNOWLEDGE GRID (Sobre) ── */
+.knowledge-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-top: 4px;
+}
+.knowledge-group {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  padding: 12px 14px;
+}
+.knowledge-title {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  color: var(--yellow);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.knowledge-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.ktag {
+  font-size: 11px;
+  color: #bbb;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  padding: 2px 8px;
+  border-radius: 2px;
+}
+
+/* ── PROJETOS ── */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.project-card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  padding: 24px 24px 20px 28px;
+  position: relative;
+  transition: border-color .2s;
+}
+.project-card:hover { border-color: var(--yellow); }
+.project-accent {
+  position: absolute;
+  top: 0; left: 0;
+  width: 3px; height: 100%;
+  background: var(--yellow);
+  border-radius: 2px 0 0 2px;
+}
+.project-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.project-icon {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  background: var(--yellow-dim);
+  border: 1px solid var(--yellow);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+}
+.project-version {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  color: var(--muted);
+  letter-spacing: 1px;
+  margin-top: 2px;
+}
+.project-link {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 11px;
+  color: var(--yellow);
+  text-decoration: none;
+  border: 1px solid var(--yellow);
+  padding: 4px 10px;
+  border-radius: 2px;
+  flex-shrink: 0;
+  transition: background .2s;
+}
+.project-link:hover { background: var(--yellow-dim); }
+.project-desc {
+  font-size: 13px;
+  color: #aaa;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+.ptag {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  color: var(--yellow);
+  background: var(--yellow-dim);
+  border: 1px solid rgba(245,200,66,0.3);
+  padding: 3px 8px;
+  border-radius: 2px;
+  letter-spacing: 0.5px;
+}
+.project-status {
+  font-size: 11px;
+  font-weight: 600;
+}
+.project-status.active { color: var(--green); }
+.project-status.dev { color: var(--yellow); }
+
+/* ── RESPONSIVO — knowledge e projetos ── */
+@media (max-width: 768px) {
+  .knowledge-grid { grid-template-columns: 1fr; }
+  .projects-grid  { grid-template-columns: 1fr; }
+}
+@media (max-width: 480px) {
+  .project-link { display: none; }
+}
