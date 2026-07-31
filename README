@@ -1,0 +1,36 @@
+# Portfólio — Luís Filipe Medeiros
+
+Portfólio profissional desenvolvido somente com HTML e CSS, com foco em Segurança da Informação, Python, Cloud e Infraestrutura.
+
+## Estrutura
+
+```text
+portfolio-v2/
+├── css/
+│   ├── responsive.css
+│   └── style.css
+├── index.html
+├── LICENSE
+└── README.md
+```
+
+## Tecnologias
+
+- HTML5
+- CSS3
+- Devicon
+- Google Fonts
+- GitHub Pages
+
+## Publicação
+
+No GitHub Pages, use:
+
+```text
+Branch: main
+Folder: /(root)
+```
+
+## Autor
+
+Luís Filipe Medeiros

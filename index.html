@@ -1,567 +1,291 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Luis Filipe | Segurança da Informação</title>
-  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow:wght@300;400;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Luís Filipe Medeiros — Segurança da Informação, Python, Cloud e Infraestrutura.">
+  <title>Luís Filipe Medeiros | Segurança da Informação</title>
+  
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
+  <div class="page-grid" aria-hidden="true"></div>
 
-<!-- NAV -->
-<nav>
-  <span class="logo">[ LUIS_FILIPE ]</span>
-  <ul class="nav-links">
-    <li><a href="#inicio">início</a></li>
-    <li><a href="#sobre">sobre</a></li>
-    <li><a href="#experiencia">experiência</a></li>
-    <li><a href="#projetos">projetos</a></li>
-    <li><a href="#certificacoes">certificações</a></li>
-    <li><a href="#ferramentas">ferramentas</a></li>
-    <li><a href="#contato">contato</a></li>
-  </ul>
-</nav>
+  <header class="site-header">
+    <div class="container header-content">
+      <a class="brand" href="#inicio">
+        <span class="brand-mark">LF</span>
+        <span class="brand-text">MEDEIROS</span>
+      </a>
 
-<!-- HERO -->
-<section id="inicio">
-  <div class="hero-left">
-    <p class="hero-tag fade fade-1">&gt; segurança da informação</p>
-    <h1 class="hero-name fade fade-2">Luis Filipe Medeiros</h1>
-    <p class="hero-role fade fade-3 typing">Security Analyst · Python Dev · Web Developer</p>
-    <p class="hero-bio fade fade-4">
-      Formado em Segurança Cibernética pela Estácio de Sá, com base técnica em
-      Telecomunicações pelo CEFET/RJ. Experiência prática em pentest, OSINT, Linux,
-      AWS, Docker e desenvolvimento em Python. Projetos reais em segurança ofensiva,
-      investigação digital e automação. Foco em Cibersegurança, Threat Intelligence,
-      OSINT e Cloud Security.
-    </p>
-    <div class="chips fade fade-4">
-      <span class="chip">Pentest</span>
-      <span class="chip">OSINT</span>
-      <span class="chip">Python</span>
-      <span class="chip">AWS</span>
-      <span class="chip">Azure</span>
-      <span class="chip">Docker</span>
-      <span class="chip">Kali Linux</span>
-      <span class="chip">DevSecOps</span>
-      <span class="chip">RAG</span>
-      <span class="chip">Git</span>
-    </div>
-    <div class="hero-btns fade fade-4">
-      <a href="#projetos" class="btn-primary">Ver Projetos</a>
-      <a href="#contato" class="btn-outline">Contato</a>
-    </div>
-  </div>
-  <div class="hero-stats fade fade-3">
-    <div class="stat">
-      <div class="stat-num">1+</div>
-      <div class="stat-label">Ano de experiência</div>
-    </div>
-    <div class="stat">
-      <div class="stat-num">15+</div>
-      <div class="stat-label">Cursos e certificações</div>
-    </div>
-    <div class="stat">
-      <div class="stat-num">2</div>
-      <div class="stat-label">Projetos práticos</div>
-    </div>
-  </div>
-</section>
+      <nav class="main-navigation" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#trajetoria">Trajetória</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#formacao">Formação</a>
+        <a href="#contato">Contato</a>
+      </nav>
 
-<!-- SOBRE -->
-<section id="sobre">
-  <div class="section-header">
-    <span class="section-num">01</span>
-    <h2 class="section-title">Sobre mim</h2>
-    <div class="section-line"></div>
-  </div>
-  <div class="sobre-grid">
-    <div>
-      <div class="sobre-block">
-        <h3>&gt; formação acadêmica</h3>
-        <div class="formacao-item">
-          <div class="formacao-inst">CEFET / RJ</div>
-          <div class="formacao-curso">Ensino Médio Técnico</div>
-          <div class="formacao-tipo">Telecomunicações</div>
+      <a class="header-link" href="https://github.com/lfmos" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">SEGURANÇA DA INFORMAÇÃO • PYTHON • CLOUD</span>
+          <h1>Luís Filipe <strong>Medeiros</strong></h1>
+          <p class="hero-role">Analista de Segurança em formação contínua, com experiência prática em infraestrutura, automação, OSINT e desenvolvimento.</p>
+          <p class="hero-description">
+            Formado em Segurança Cibernética pela Estácio de Sá e técnico em Telecomunicações pelo CEFET/RJ.
+            Desenvolvo projetos voltados para segurança ofensiva, investigação digital, cloud, Linux e automação com Python.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projetos">Ver projetos</a>
+            <a class="button button-outline" href="#contato">Entrar em contato</a>
+          </div>
+
+          <div class="availability">
+            <span class="availability-dot"></span>
+            Disponível para oportunidades remotas ou presenciais no Rio de Janeiro
+          </div>
         </div>
-        <div class="formacao-item">
-          <div class="formacao-inst">ESTÁCIO DE SÁ</div>
-          <div class="formacao-curso">Graduação</div>
-          <div class="formacao-tipo">Segurança Cibernética</div>
+
+        <aside class="profile-panel">
+          <div class="profile-panel-header">
+            <span>PERFIL_PROFISSIONAL</span>
+            <span class="status">ATIVO</span>
+          </div>
+
+          <dl class="profile-data">
+            <div><dt>Área principal</dt><dd>Segurança da Informação</dd></div>
+            <div><dt>Base técnica</dt><dd>Python, Linux e Redes</dd></div>
+            <div><dt>Cloud</dt><dd>AWS e Microsoft Azure</dd></div>
+            <div><dt>Localização</dt><dd>Rio de Janeiro — RJ</dd></div>
+            <div><dt>Idiomas</dt><dd>Português, Inglês e Espanhol</dd></div>
+          </dl>
+
+          <div class="focus-block">
+            <span>FOCO ATUAL</span>
+            <p>Cybersecurity • Cloud Security • OSINT • Automação</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="tech-strip" aria-label="Tecnologias">
+      <div class="tech-track">
+        <div class="tech-group">
+          <div class="tech-item"><i class="devicon-python-plain"></i><span>Python</span></div>
+          <div class="tech-item"><i class="devicon-docker-plain"></i><span>Docker</span></div>
+          <div class="tech-item"><i class="devicon-linux-plain"></i><span>Linux</span></div>
+          <div class="tech-item"><i class="devicon-amazonwebservices-plain-wordmark"></i><span>AWS</span></div>
+          <div class="tech-item"><i class="devicon-azure-plain"></i><span>Azure</span></div>
+          <div class="tech-item"><i class="devicon-git-plain"></i><span>Git</span></div>
+          <div class="tech-item"><i class="devicon-github-original"></i><span>GitHub</span></div>
+          <div class="tech-item"><i class="devicon-postgresql-plain"></i><span>PostgreSQL</span></div>
+          <div class="tech-item"><i class="devicon-neo4j-plain"></i><span>Neo4j</span></div>
+          <div class="tech-item"><i class="devicon-html5-plain"></i><span>HTML5</span></div>
+          <div class="tech-item"><i class="devicon-css3-plain"></i><span>CSS3</span></div>
+          <div class="tech-item"><i class="devicon-javascript-plain"></i><span>JavaScript</span></div>
+          <div class="tech-item"><i class="devicon-django-plain"></i><span>Django</span></div>
+          <div class="tech-item"><i class="devicon-flask-original"></i><span>Flask</span></div>
+        </div>
+        <div class="tech-group" aria-hidden="true">
+          <div class="tech-item"><i class="devicon-python-plain"></i><span>Python</span></div>
+          <div class="tech-item"><i class="devicon-docker-plain"></i><span>Docker</span></div>
+          <div class="tech-item"><i class="devicon-linux-plain"></i><span>Linux</span></div>
+          <div class="tech-item"><i class="devicon-amazonwebservices-plain-wordmark"></i><span>AWS</span></div>
+          <div class="tech-item"><i class="devicon-azure-plain"></i><span>Azure</span></div>
+          <div class="tech-item"><i class="devicon-git-plain"></i><span>Git</span></div>
+          <div class="tech-item"><i class="devicon-github-original"></i><span>GitHub</span></div>
+          <div class="tech-item"><i class="devicon-postgresql-plain"></i><span>PostgreSQL</span></div>
+          <div class="tech-item"><i class="devicon-neo4j-plain"></i><span>Neo4j</span></div>
+          <div class="tech-item"><i class="devicon-html5-plain"></i><span>HTML5</span></div>
+          <div class="tech-item"><i class="devicon-css3-plain"></i><span>CSS3</span></div>
+          <div class="tech-item"><i class="devicon-javascript-plain"></i><span>JavaScript</span></div>
+          <div class="tech-item"><i class="devicon-django-plain"></i><span>Django</span></div>
+          <div class="tech-item"><i class="devicon-flask-original"></i><span>Flask</span></div>
         </div>
       </div>
-      <br/>
-      <div class="sobre-block">
-        <h3>&gt; idiomas</h3>
-        <div class="idioma-row">
-          <span class="idioma-label">Português</span>
-          <span class="idioma-nivel">Nativo</span>
-        </div>
-        <div class="idioma-row">
-          <span class="idioma-label">Inglês</span>
-          <span class="idioma-nivel">Intermediário</span>
-        </div>
-        <div class="idioma-row">
-          <span class="idioma-label">Espanhol</span>
-          <span class="idioma-nivel">Intermediário</span>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div class="sobre-block">
-        <h3>&gt; competências</h3>
-        <p>Proatividade · Trabalho em equipe · Adaptação e flexibilidade · Comunicação clara · Aprendizagem rápida · Resolução de problemas</p>
-      </div>
-      <br/>
-      <div class="sobre-block">
-        <h3>&gt; conhecimentos técnicos</h3>
-        <div class="knowledge-grid">
-          <div class="knowledge-group">
-            <div class="knowledge-title">
-              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#f5c842" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-              Segurança
-            </div>
-            <div class="knowledge-tags">
-              <span class="ktag">Pentest</span><span class="ktag">Hacking Ético</span><span class="ktag">OSINT</span><span class="ktag">Enumeração</span><span class="ktag">Exploração de Vulnerabilidades</span><span class="ktag">Pós-Exploração</span><span class="ktag">MITM</span><span class="ktag">Brute Force</span><span class="ktag">Engenharia Social</span><span class="ktag">Hardening</span><span class="ktag">DevSecOps</span><span class="ktag">Análise e Mitigação de Ataques</span><span class="ktag">Coleta e Análise de Dados de Segurança</span>
-            </div>
-          </div>
-          <div class="knowledge-group">
-            <div class="knowledge-title">
-              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#f5c842" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-              Programação
-            </div>
-            <div class="knowledge-tags">
-              <span class="ktag">Python</span><span class="ktag">Lógica de Programação</span><span class="ktag">Estruturas de Dados</span><span class="ktag">Funções</span><span class="ktag">Manipulação de Strings</span><span class="ktag">Manipulação de Arquivos</span><span class="ktag">Tratamento de Exceções</span><span class="ktag">Depuração</span><span class="ktag">Boas Práticas</span><span class="ktag">Testes e Otimização</span><span class="ktag">Automação</span><span class="ktag">Bibliotecas para Análise de Dados</span><span class="ktag">Django</span><span class="ktag">Flask</span><span class="ktag">HTML/CSS</span><span class="ktag">Bootstrap</span>
-            </div>
-          </div>
-          <div class="knowledge-group">
-            <div class="knowledge-title">
-              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#f5c842" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
-              Cloud & Infra
-            </div>
-            <div class="knowledge-tags">
-              <span class="ktag">AWS EC2</span><span class="ktag">AWS SSM</span><span class="ktag">Azure</span><span class="ktag">Azure Functions</span><span class="ktag">Azure OpenAI</span><span class="ktag">Serverless</span><span class="ktag">Docker</span><span class="ktag">Docker Compose</span><span class="ktag">Linux</span><span class="ktag">Administração de Sistemas</span><span class="ktag">SSH</span><span class="ktag">Máquinas Virtuais</span><span class="ktag">Redes</span><span class="ktag">Protocolos de Rede</span><span class="ktag">Varredura de Rede</span>
-            </div>
-          </div>
-          <div class="knowledge-group">
-            <div class="knowledge-title">
-              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#f5c842" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/></svg>
-              Dados & IA
-            </div>
-            <div class="knowledge-tags">
-              <span class="ktag">SQL</span><span class="ktag">Banco de Dados Relacionais</span><span class="ktag">Neo4j</span><span class="ktag">ETL</span><span class="ktag">Business Intelligence</span><span class="ktag">Engenharia de Dados</span><span class="ktag">Limpeza de Dados</span><span class="ktag">Visualização de Dados</span><span class="ktag">Detecção de Anomalias</span><span class="ktag">LLMs</span><span class="ktag">IA Generativa</span><span class="ktag">Machine Learning</span><span class="ktag">Engenharia de Prompt</span><span class="ktag">RAG</span><span class="ktag">Azure OpenAI</span><span class="ktag">Assistentes Virtuais</span><span class="ktag">IA aplicada à Segurança</span><span class="ktag">Copilot</span><span class="ktag">NotebookLM</span>
-            </div>
+    </section>
+
+    <section id="sobre">
+      <div class="container">
+        <header class="section-heading">
+          <span class="section-number">01</span>
+          <h2>Sobre e competências</h2>
+          <div class="section-line"></div>
+        </header>
+
+        <div class="about-grid">
+          <article class="about-copy">
+            <p>Minha trajetória combina Segurança da Informação, programação e infraestrutura. Tenho interesse especial em análise de vulnerabilidades, OSINT, automação, ambientes Linux e segurança em nuvem.</p>
+            <p>Busco transformar estudos em projetos práticos, documentados e reproduzíveis. Meu objetivo é atuar em equipes de segurança, cloud ou infraestrutura, contribuindo com organização, aprendizado rápido e capacidade técnica.</p>
+          </article>
+
+          <div class="skills-board">
+            <article><span>SEGURANÇA</span><p>Pentest, OSINT, hardening, enumeração, MITM e análise de vulnerabilidades.</p></article>
+            <article><span>PROGRAMAÇÃO</span><p>Python, automação, Flask, Django, HTML, CSS e boas práticas.</p></article>
+            <article><span>CLOUD & INFRA</span><p>AWS EC2, SSM, Azure, Docker, Linux, redes e máquinas virtuais.</p></article>
+            <article><span>DADOS & IA</span><p>SQL, PostgreSQL, Neo4j, RAG, Azure OpenAI e detecção de anomalias.</p></article>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- EXPERIÊNCIA PRÁTICA -->
-<section id="experiencia">
-  <div class="section-header">
-    <span class="section-num">02</span>
-    <h2 class="section-title">Experiência Prática</h2>
-    <div class="section-line"></div>
-  </div>
-  <div class="exp-grid">
-    <div class="exp-card">
-      <div class="exp-accent"></div>
-      <div class="exp-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#f5c842" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="16" rx="2"/><polyline points="8 9 12 13 8 17"/><line x1="14" y1="17" x2="18" y2="17"/></svg></div>
-      <div class="exp-content">
-        <div class="exp-title">Administração de Servidores Linux</div>
-        <div class="exp-desc">Gerenciamento remoto via SSH, configuração de usuários, permissões, serviços e máquinas virtuais.</div>
-      </div>
-    </div>
-    <div class="exp-card">
-      <div class="exp-accent"></div>
-      <div class="exp-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#f5c842" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg></div>
-      <div class="exp-content">
-        <div class="exp-title">AWS EC2 &amp; SSM</div>
-        <div class="exp-desc">Provisionamento e gerenciamento de instâncias EC2, com administração segura via AWS Systems Manager.</div>
-      </div>
-    </div>
-    <div class="exp-card">
-      <div class="exp-accent"></div>
-      <div class="exp-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#f5c842" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="4" height="4" rx="0.5"/><rect x="7" y="7" width="4" height="4" rx="0.5"/><rect x="12" y="7" width="4" height="4" rx="0.5"/><rect x="7" y="2" width="4" height="4" rx="0.5"/><rect x="12" y="2" width="4" height="4" rx="0.5"/><path d="M2 15c0 0 1-1 3-1s3.5 2 6 2 5-2 7-2c0 0 1.5 0 2 1"/><path d="M20 11c1 0 2 .5 2 2 0 0-1 4-6 4"/></svg></div>
-      <div class="exp-content">
-        <div class="exp-title">Docker &amp; Docker Compose</div>
-        <div class="exp-desc">Criação e orquestração de containers para ambientes de desenvolvimento, segurança e deploy.</div>
-      </div>
-    </div>
-    <div class="exp-card">
-      <div class="exp-accent"></div>
-      <div class="exp-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#f5c842" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><line x1="2" y1="2" x2="22" y2="22"/></svg></div>
-      <div class="exp-content">
-        <div class="exp-title">OSINT &amp; Investigação Digital</div>
-        <div class="exp-desc">Operação de ferramentas como SpiderFoot, TT-RSS e Neo4j para coleta e análise de inteligência de fontes abertas.</div>
-      </div>
-    </div>
-    <div class="exp-card">
-      <div class="exp-accent"></div>
-      <div class="exp-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#f5c842" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v5c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/><path d="M3 10v5c0 1.66 4.03 3 9 3s9-1.34 9-3v-5"/><path d="M3 15v4c0 1.66 4.03 3 9 3s9-1.34 9-3v-4"/></svg></div>
-      <div class="exp-content">
-        <div class="exp-title">Banco de Dados &amp; Análise</div>
-        <div class="exp-desc">PostgreSQL, Neo4j, SQL, ETL, BI e detecção de anomalias com Python aplicados à segurança da informação.</div>
-      </div>
-    </div>
-    <div class="exp-card">
-      <div class="exp-accent"></div>
-      <div class="exp-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#f5c842" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/><line x1="12" y1="2" x2="12" y2="22" opacity="0.5"/></svg></div>
-      <div class="exp-content">
-        <div class="exp-title">Automação com Python</div>
-        <div class="exp-desc">Desenvolvimento de aplicações, scripts para pentest, automação de processos e assistentes com IA integrada.</div>
-      </div>
-    </div>
-  </div>
-</section>
 
-<!-- PROJETOS -->
-<section id="projetos">
-  <div class="section-header">
-    <span class="section-num">03</span>
-    <h2 class="section-title">Projetos</h2>
-    <div class="section-line"></div>
-  </div>
-  <div class="projects-grid">
-    <div class="project-card">
-      <div class="project-accent"></div>
-      <div class="project-header">
-        <div class="project-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#f5c842" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="16" rx="2"/><polyline points="8 9 12 13 8 17"/><line x1="14" y1="17" x2="18" y2="17"/></svg>
+    <section id="trajetoria" class="section-soft">
+      <div class="container">
+        <header class="section-heading">
+          <span class="section-number">02</span>
+          <h2>Trajetória</h2>
+          <div class="section-line"></div>
+        </header>
+
+        <div class="trajectory-grid">
+          <article class="trajectory-card">
+            <span class="trajectory-year">BASE TÉCNICA</span>
+            <h3>Telecomunicações — CEFET/RJ</h3>
+            <p>
+              Formação técnica que desenvolveu minha base em redes, infraestrutura,
+              protocolos de comunicação, fibra óptica, telefonia e sistemas de transmissão.
+            </p>
+          </article>
+
+          <article class="trajectory-card">
+            <span class="trajectory-year">FORMAÇÃO SUPERIOR</span>
+            <h3>Segurança Cibernética</h3>
+            <p>
+              Graduação voltada para proteção de ambientes, análise de vulnerabilidades,
+              segurança ofensiva, gestão de riscos e segurança em cloud.
+            </p>
+          </article>
+
+          <article class="trajectory-card">
+            <span class="trajectory-year">DESENVOLVIMENTO</span>
+            <h3>Python, Cloud e Automação</h3>
+            <p>
+              Evolução para projetos práticos envolvendo automação, Docker, AWS,
+              Azure, Linux, OSINT e análise de dados aplicada à segurança.
+            </p>
+          </article>
         </div>
+      </div>
+    </section>
+
+    <section id="experiencia" class="section-soft">
+      <div class="container">
+        <header class="section-heading">
+          <span class="section-number">03</span>
+          <h2>Experiência prática</h2>
+          <div class="section-line"></div>
+        </header>
+
+        <div class="experience-grid">
+          <article class="experience-card"><span class="card-index">01</span><h3>Laboratório OSINT em AWS</h3><p>Implantação e administração de ambiente colaborativo em AWS EC2 com SpiderFoot, Neo4j, TT-RSS, Docker Compose, SSM e controle de acesso.</p></article>
+          <article class="experience-card"><span class="card-index">02</span><h3>Linux e administração remota</h3><p>Gerenciamento de usuários, permissões, serviços, acesso remoto e ambientes virtualizados.</p></article>
+          <article class="experience-card"><span class="card-index">03</span><h3>Automação com Python</h3><p>Desenvolvimento de scripts, aplicações, análise de dados e automações aplicadas a operações e segurança.</p></article>
+          <article class="experience-card"><span class="card-index">04</span><h3>Containers e deploy</h3><p>Criação e organização de ambientes com Docker, Docker Compose, Apache, Nginx e GitHub Pages.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos">
+      <div class="container">
+        <header class="section-heading">
+          <span class="section-number">04</span>
+          <h2>Projetos</h2>
+          <div class="section-line"></div>
+        </header>
+
+        <div class="projects-grid">
+          <article class="project-card project-featured">
+            <div class="project-top"><span class="project-type">PROJETO EM DESTAQUE</span><span class="project-status status-dev">Em desenvolvimento</span></div>
+            <h3>Laboratório OSINT em AWS</h3>
+            <p>Ambiente colaborativo para investigação digital em nuvem, com hardening, serviços containerizados, controle de acesso e documentação operacional.</p>
+            <div class="project-tags"><span>AWS EC2</span><span>Docker Compose</span><span>Linux</span><span>SSM</span><span>Neo4j</span><span>SpiderFoot</span></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top"><span class="project-type">DOCKER</span><span class="project-status status-live">Publicado</span></div>
+            <h3>Docker Apache Deployment</h3>
+            <p>Aplicação web estática executada em Apache HTTP Server por meio de Docker Compose, com documentação e demonstração online.</p>
+            <div class="project-tags"><span>Docker</span><span>Apache</span><span>HTML</span><span>CSS</span><span>GitHub Pages</span></div>
+            <div class="project-links">
+              <a href="https://github.com/lfmos/docker-apache-deployment" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+              <a href="https://lfmos.github.io/docker-apache-deployment/" target="_blank" rel="noopener noreferrer">Demo ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top"><span class="project-type">PYTHON</span><span class="project-status status-live">Publicado</span></div>
+            <h3>OpsHelper AI</h3>
+            <p>Assistente em Python para consulta rápida de comandos, procedimentos e boas práticas operacionais em TI e DevOps.</p>
+            <div class="project-tags"><span>Python</span><span>Automação</span><span>Git</span><span>Documentação</span></div>
+            <div class="project-links"><a href="https://github.com/lfmos" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top"><span class="project-type">INFRAESTRUTURA</span><span class="project-status status-live">Concluído</span></div>
+            <h3>Cluster Docker Swarm com Vagrant</h3>
+            <p>Laboratório local com quatro máquinas virtuais, Docker pré-instalado, nó manager e três workers.</p>
+            <div class="project-tags"><span>Docker Swarm</span><span>Vagrant</span><span>Linux</span><span>Cluster</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="formacao" class="section-soft">
+      <div class="container">
+        <header class="section-heading">
+          <span class="section-number">05</span>
+          <h2>Formação e certificações</h2>
+          <div class="section-line"></div>
+        </header>
+
+        <div class="education-grid">
+          <article class="education-card"><span>FORMAÇÃO ACADÊMICA</span><h3>Segurança Cibernética</h3><p>Estácio de Sá — Graduação concluída</p></article>
+          <article class="education-card"><span>FORMAÇÃO TÉCNICA</span><h3>Telecomunicações</h3><p>CEFET/RJ — Ensino Médio Técnico</p></article>
+          <article class="education-card"><span>BOOTCAMP</span><h3>Riachuelo — Cibersegurança</h3><p>Pentest, OSINT, hardening, ataques e defesa.</p></article>
+          <article class="education-card"><span>BOOTCAMP</span><h3>Bradesco — GenAI, Dados & Cyber</h3><p>IA generativa, dados, segurança e automação.</p></article>
+          <article class="education-card"><span>FORMAÇÃO COMPLEMENTAR</span><h3>Docker Fundamentals</h3><p>Docker Compose, Swarm, cluster e deploy.</p></article>
+          <article class="education-card"><span>CLOUD</span><h3>Microsoft Azure</h3><p>Serverless, deploy, dados, RAG e Azure OpenAI.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <div class="container contact-layout">
         <div>
-          <div class="project-title">OpsHelper AI</div>
-          <div class="project-version">v1.0.0 · Open Source</div>
+          <span class="eyebrow">CONTATO</span>
+          <h2>Vamos conversar sobre oportunidades e projetos.</h2>
+          <p>Estou disponível para oportunidades em Segurança da Informação, Cloud, Infraestrutura e automação com Python.</p>
         </div>
-        <a href="https://github.com/lfmos" target="_blank" class="project-link">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.071 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.026 2.747-1.026.546 1.378.202 2.397.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.944.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.579.688.481C19.138 20.2 22 16.447 22 12.021 22 6.484 17.523 2 12 2z"/></svg>
-          GitHub
-        </a>
-      </div>
-      <p class="project-desc">Assistente desenvolvido em Python para auxiliar equipes de TI e DevOps na consulta rápida de comandos, procedimentos e boas práticas operacionais.</p>
-      <div class="project-tags">
-        <span class="ptag">Python</span>
-        <span class="ptag">Git</span>
-        <span class="ptag">GitHub</span>
-        <span class="ptag">Licença MIT</span>
-        <span class="ptag">Documentação Técnica</span>
-      </div>
-      <div class="project-status active">● Publicado</div>
-    </div>
 
-    <div class="project-card">
-      <div class="project-accent"></div>
-      <div class="project-header">
-        <div class="project-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#f5c842" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><line x1="2" y1="2" x2="22" y2="22"/></svg>
-        </div>
-        <div>
-          <div class="project-title">Laboratório OSINT em AWS</div>
-          <div class="project-version">Colaborativo · Cloud</div>
+        <div class="contact-links">
+          <a href="mailto:lfmedeiros.rj@gmail.com"><span>E-mail</span><strong>lfmedeiros.rj@gmail.com</strong></a>
+          <a href="https://github.com/lfmos" target="_blank" rel="noopener noreferrer"><span>GitHub</span><strong>github.com/lfmos</strong></a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><strong>Perfil profissional</strong></a>
         </div>
       </div>
-      <p class="project-desc">Ambiente colaborativo para investigação digital em nuvem, com infraestrutura segura, hardening, ferramentas OSINT centralizadas e automação de serviços.</p>
-      <div class="project-tags">
-        <span class="ptag">AWS EC2</span>
-        <span class="ptag">Docker Compose</span>
-        <span class="ptag">Linux</span>
-        <span class="ptag">Python</span>
-        <span class="ptag">Neo4j</span>
-        <span class="ptag">SpiderFoot</span>
-        <span class="ptag">TT-RSS</span>
-        <span class="ptag">SSM</span>
-      </div>
-      <div class="project-status dev">◌ Em desenvolvimento</div>
-    </div>
-  </div>
-</section>
+    </section>
+  </main>
 
-<!-- CERTIFICAÇÕES -->
-<section id="certificacoes">
-  <div class="section-header">
-    <span class="section-num">04</span>
-    <h2 class="section-title">Certificações</h2>
-    <div class="section-line"></div>
-  </div>
-
-  <p class="certs-group-title">▸ segurança &amp; redes</p>
-  <div class="certs-grid">
-    <div class="cert">
-      <div class="cert-accent"></div>
-      <span class="cert-badge">DIO</span>
-      <div class="cert-name">Bootcamp Riachuelo — Cibersegurança</div>
-      <div class="cert-org">Pentest, OSINT, MITM, brute force, engenharia social, hardening e blue/red team</div>
-      <div class="cert-status">● Concluído</div>
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div><strong>Luís Filipe Medeiros</strong><span>Segurança da Informação • Python • Cloud</span></div>
+      <p>© 2026 — Todos os direitos reservados.</p>
     </div>
-    <div class="cert">
-      <div class="cert-accent"></div>
-      <span class="cert-badge">DIO</span>
-      <div class="cert-name">Redes de Computadores</div>
-      <div class="cert-org">Fundamentos de redes, protocolos, arquitetura de comunicação e varredura de rede</div>
-      <div class="cert-status">● Concluído</div>
-    </div>
-    <div class="cert">
-      <div class="cert-accent"></div>
-      <span class="cert-badge">DIO</span>
-      <div class="cert-name">Linux: Administração e Acesso Remoto</div>
-      <div class="cert-org">Administração básica, usuários, permissões, SSH e ambientes virtualizados</div>
-      <div class="cert-status">● Concluído</div>
-    </div>
-    <div class="cert">
-      <div class="cert-accent"></div>
-      <span class="cert-badge">DIO</span>
-      <div class="cert-name">DevSecOps — Fundamentos</div>
-      <div class="cert-org">Segurança no ciclo de desenvolvimento (SDLC), pipelines seguros e desenvolvimento seguro</div>
-      <div class="cert-status">● Concluído</div>
-    </div>
-    <div class="cert">
-      <div class="cert-accent"></div>
-      <span class="cert-badge">DIO</span>
-      <div class="cert-name">Cloud: Fundamentos</div>
-      <div class="cert-org">Conceitos de cloud computing, infraestrutura em nuvem e ambientes escaláveis e seguros</div>
-      <div class="cert-status">● Concluído</div>
-    </div>
-    <div class="cert">
-      <div class="cert-accent"></div>
-      <span class="cert-badge">ESTÁCIO</span>
-      <div class="cert-name">Análise e Gerência de Segurança da Informação</div>
-      <div class="cert-org">Estácio de Sá</div>
-      <div class="cert-status">● Concluído</div>
-    </div>
-    <div class="cert">
-      <div class="cert-accent"></div>
-      <span class="cert-badge">ESTÁCIO</span>
-      <div class="cert-name">Segurança em Cloud</div>
-      <div class="cert-org">Estácio de Sá</div>
-      <div class="cert-status">● Concluído</div>
-    </div>
-  </div>
-
-  <p class="certs-group-title">▸ desenvolvimento &amp; IA</p>
-  <div class="certs-grid">
-    <div class="cert">
-      <div class="cert-accent"></div>
-      <span class="cert-badge">DIO</span>
-      <div class="cert-name">Bootcamp Bradesco — GenAI, Dados &amp; Cyber</div>
-      <div class="cert-org">IA Generativa, Machine Learning, LLMs, Engenharia de Prompt, Análise de Dados e Segurança</div>
-      <div class="cert-status">● Concluído</div>
-    </div>
-    <div class="cert">
-      <div class="cert-accent"></div>
-      <span class="cert-badge">DIO</span>
-      <div class="cert-name">Automação em Segurança com Python</div>
-      <div class="cert-org">Scripts para pentest, análise de dados de segurança e automação ofensiva/defensiva</div>
-      <div class="cert-status">● Concluído</div>
-    </div>
-    <div class="cert">
-      <div class="cert-accent"></div>
-      <span class="cert-badge">ESTÁCIO</span>
-      <div class="cert-name">Python — Programação</div>
-      <div class="cert-org">Estácio de Sá</div>
-      <div class="cert-status">● Concluído</div>
-    </div>
-    <div class="cert">
-      <div class="cert-accent"></div>
-      <span class="cert-badge">ESTÁCIO</span>
-      <div class="cert-name">Python — Desenvolvimento Web Full Stack</div>
-      <div class="cert-org">Estácio de Sá</div>
-      <div class="cert-status">● Concluído</div>
-    </div>
-    <div class="cert">
-      <div class="cert-accent"></div>
-      <span class="cert-badge">ESTÁCIO</span>
-      <div class="cert-name">Programação para Internet</div>
-      <div class="cert-org">Estácio de Sá</div>
-      <div class="cert-status">● Concluído</div>
-    </div>
-    <div class="cert">
-      <div class="cert-accent"></div>
-      <span class="cert-badge">SENAC RJ</span>
-      <div class="cert-name">Python — Fundamentos</div>
-      <div class="cert-org">Senac RJ</div>
-      <div class="cert-status">● Concluído</div>
-    </div>
-    <div class="cert">
-      <div class="cert-accent"></div>
-      <span class="cert-badge">DIO</span>
-      <div class="cert-name">Git e GitHub</div>
-      <div class="cert-org">Versionamento de código, controle de mudanças e colaboração em projetos</div>
-      <div class="cert-status">● Concluído</div>
-    </div>
-    <div class="cert">
-      <div class="cert-accent"></div>
-      <span class="cert-badge">DIO</span>
-      <div class="cert-name">Banco de Dados — Fundamentos</div>
-      <div class="cert-org">Bancos relacionais, SQL, ETL e manipulação de dados aplicados à segurança</div>
-      <div class="cert-status">● Concluído</div>
-    </div>
-  </div>
-
-  <p class="certs-group-title">▸ telecomunicações &amp; infraestrutura</p>
-  <div class="certs-grid">
-    <div class="cert">
-      <div class="cert-accent"></div>
-      <span class="cert-badge">INATEL</span>
-      <div class="cert-name">Tecnologias no Cenário das Telecomunicações</div>
-      <div class="cert-org">INATEL — Instituto Nacional de Telecomunicações</div>
-      <div class="cert-status">● Concluído</div>
-    </div>
-    <div class="cert">
-      <div class="cert-accent"></div>
-      <span class="cert-badge">INATEL</span>
-      <div class="cert-name">Fibra Óptica</div>
-      <div class="cert-org">INATEL — Instituto Nacional de Telecomunicações</div>
-      <div class="cert-status">● Concluído</div>
-    </div>
-    <div class="cert">
-      <div class="cert-accent"></div>
-      <span class="cert-badge">INATEL</span>
-      <div class="cert-name">Comunicações via Satélite</div>
-      <div class="cert-org">INATEL — Instituto Nacional de Telecomunicações</div>
-      <div class="cert-status">● Concluído</div>
-    </div>
-    <div class="cert">
-      <div class="cert-accent"></div>
-      <span class="cert-badge">CONDOR</span>
-      <div class="cert-name">Telefonia e Interfonia</div>
-      <div class="cert-org">Condor Telecom</div>
-      <div class="cert-status">● Concluído</div>
-    </div>
-    <div class="cert">
-      <div class="cert-accent"></div>
-      <span class="cert-badge">1° BEC</span>
-      <div class="cert-name">NR10 — Segurança em Eletricidade</div>
-      <div class="cert-org">1° Batalhão de Engenharia de Combate</div>
-      <div class="cert-status">● Concluído</div>
-    </div>
-  </div>
-</section>
-
-<!-- FERRAMENTAS -->
-<section id="ferramentas">
-  <div class="section-header">
-    <span class="section-num">05</span>
-    <h2 class="section-title">Ferramentas &amp; Tecnologias</h2>
-    <div class="section-line"></div>
-  </div>
-  <div class="tools-grid">
-    <div class="tool-group">
-      <div class="tool-group-title">Segurança</div>
-      <ul class="tool-list">
-        <li>Kali Linux</li>
-        <li>SpiderFoot</li>
-        <li>OSINT</li>
-        <li>Análise de Vulnerabilidades</li>
-        <li>Investigação Digital</li>
-      </ul>
-    </div>
-    <div class="tool-group">
-      <div class="tool-group-title">Cloud &amp; Infra</div>
-      <ul class="tool-list">
-        <li>AWS EC2</li>
-        <li>AWS SSM</li>
-        <li>Microsoft Azure</li>
-        <li>Azure Functions</li>
-        <li>Docker / Compose</li>
-        <li>Linux / WSL / SSH</li>
-      </ul>
-    </div>
-    <div class="tool-group">
-      <div class="tool-group-title">Desenvolvimento</div>
-      <ul class="tool-list">
-        <li>Python</li>
-        <li>Django</li>
-        <li>Flask</li>
-        <li>HTML5 / CSS3</li>
-        <li>Bootstrap</li>
-      </ul>
-    </div>
-    <div class="tool-group">
-      <div class="tool-group-title">Dados &amp; IA</div>
-      <ul class="tool-list">
-        <li>PostgreSQL</li>
-        <li>Neo4j</li>
-        <li>SQL / ETL</li>
-        <li>Azure OpenAI</li>
-        <li>Microsoft Copilot</li>
-        <li>NotebookLM</li>
-        <li>TT-RSS</li>
-      </ul>
-    </div>
-    <div class="tool-group">
-      <div class="tool-group-title">DevOps &amp; Versionamento</div>
-      <ul class="tool-list">
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>VS Code</li>
-      </ul>
-    </div>
-    <div class="tool-group">
-      <div class="tool-group-title">Produtividade</div>
-      <ul class="tool-list">
-        <li>Pacote Office</li>
-        <li>AutoCAD</li>
-        <li>Canva</li>
-        <li>ProPresenter</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- CONTATO -->
-<section id="contato">
-  <div class="section-header">
-    <span class="section-num">06</span>
-    <h2 class="section-title">Contato</h2>
-    <div class="section-line"></div>
-  </div>
-  <div class="contact-grid">
-    <a href="mailto:lfmedeiros.rj@gmail.com" class="contact-card">
-      <span class="contact-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-      </span>
-      <div>
-        <div class="contact-label">E-mail</div>
-        <div class="contact-value">lfmedeiros.rj@gmail.com</div>
-      </div>
-    </a>
-    <a href="https://github.com/lfmos" target="_blank" class="contact-card">
-      <span class="contact-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.071 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.026 2.747-1.026.546 1.378.202 2.397.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.944.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.579.688.481C19.138 20.2 22 16.447 22 12.021 22 6.484 17.523 2 12 2z"/></svg>
-      </span>
-      <div>
-        <div class="contact-label">GitHub</div>
-        <div class="contact-value">github.com/lfmos</div>
-      </div>
-    </a>
-    <a href="https://linkedin.com/in/luis-filipe-medeiros/" target="_blank" class="contact-card">
-      <span class="contact-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-      </span>
-      <div>
-        <div class="contact-label">LinkedIn</div>
-        <div class="contact-value">linkedin.com/in/luis-filipe-medeiros</div>
-      </div>
-    </a>
-    <a href="https://instagram.com/luisfilipe_ms" target="_blank" class="contact-card">
-      <span class="contact-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
-      </span>
-      <div>
-        <div class="contact-label">Instagram</div>
-        <div class="contact-value">@luisfilipe_ms</div>
-      </div>
-    </a>
-  </div>
-</section>
-
-<footer>
-  <span>© 2026 <b>Luis Filipe</b> · Todos os direitos reservados</span>
-  <span>[ <b>segurança</b> · <b>código</b> · <b>web</b> ]</span>
-</footer>
-
+  </footer>
 </body>
 </html>
