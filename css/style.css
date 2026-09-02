@@ -665,3 +665,45 @@ section {
   color: var(--muted);
   font-size: 0.9rem;
 }
+
+/* Header actions and language selector */
+.header-actions {
+  justify-self: end;
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.language-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.language-switcher a,
+.language-switcher .lang-active,
+.language-switcher .lang-separator {
+  color: var(--muted);
+}
+
+.language-switcher a {
+  transition: color 180ms ease;
+}
+
+.language-switcher a:hover,
+.language-switcher .lang-active {
+  color: var(--accent);
+}
+
+.language-switcher .lang-active {
+  border: 1px solid rgba(245, 200, 66, 0.55);
+  padding: 3px 6px;
+}
+
+.language-switcher .lang-separator {
+  opacity: 0.55;
+}
