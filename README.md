@@ -1,256 +1,105 @@
-Portfólio — Luís Filipe Medeiros
+# Hi, I'm Luís Filipe Medeiros 👋
 
-Portfólio profissional de projetos em Cibersegurança, DevSecOps, Cloud, Infraestrutura, Containers e Python.
+### Cybersecurity | Detection Engineering | DevSecOps | Python | Cloud Security
 
-O site reúne projetos práticos desenvolvidos para demonstrar conhecimentos técnicos aplicados em segurança, automação, infraestrutura, cloud, containers e desenvolvimento.
+Cybersecurity graduate and Telecommunications technician focused on building practical security, infrastructure and automation projects.
 
-Acesso
+My current work is centered on **Detection Engineering, Blue/Purple Team, DevSecOps, container security and cloud security**, using technologies such as Python, FastAPI, Wazuh, Docker, Kubernetes, AWS and CI/CD pipelines.
 
-O portfólio é publicado com GitHub Pages:
+📍 Rio de Janeiro, Brazil  
+🎯 Open to junior opportunities in Cybersecurity, Detection Engineering and DevSecOps
 
-https://lfmos.github.io
+---
 
-O conteúdo está disponível em:
+## Featured Project
 
-Português
+### 🛡️ NexVigil — Security Lab
 
-English
+Authorial Detection Engineering and Purple Team laboratory built with:
 
-Estrutura
+- Python & FastAPI
+- Wazuh SIEM
+- MITRE ATT&CK
+- Security telemetry and event correlation
+- Brute-force and account-compromise detection
+- Automated tests
+- Bandit SAST
+- pip-audit
+- GitHub Actions
+- Python 3.11 / 3.13 CI validation
 
-lfmos.github.io/
-├── css/
-│   ├── responsive.css
-│   └── style.css
-├── en/
-│   └── index.html
-├── favicon.png
-├── index.html
-├── LICENSE
-└── README.md
+🔗 [View NexVigil](https://github.com/lfmos/NexVigil)
 
-Projetos em destaque
+---
 
-NexVigil — Security Lab
+## Security & DevSecOps Projects
 
-Projeto autoral de cibersegurança voltado à geração de telemetria, simulação de eventos e desenvolvimento de regras de detecção.
+### Kubernetes Security
+🔗 [K8s Security Lab](https://github.com/lfmos/k8s-security-lab)
 
-Principais tecnologias e conceitos:
+Insecure vs hardened Kubernetes workloads using Pod Security, non-root execution, read-only filesystems, NetworkPolicy, least privilege and Checkov.
 
-Python
+### Cloud DevSecOps
+🔗 [GKE DevSecOps Lab](https://github.com/lfmos/gke-devsecops-lab)
 
-FastAPI
+Reference DevSecOps pipeline involving GKE, GitLab CI/CD, Artifact Registry, Workload Identity Federation, Trivy and container hardening.
 
-Detection Engineering
+### Python Automation
+🔗 [OpsHelper](https://github.com/lfmos/opshelper)
 
-MITRE ATT&CK
+Deterministic Python troubleshooting assistant with automated tests and CI.
 
-Blue/Purple Team
+---
 
-GitHub Actions
+## Technical Stack
 
-Bandit
+**Security**
+- Detection Engineering
+- Wazuh SIEM
+- MITRE ATT&CK
+- OWASP Top 10
+- OSINT
+- Vulnerability analysis
+- Hardening
+- Bandit
+- Trivy
+- Checkov
 
-pip-audit
+**Cloud & Infrastructure**
+- AWS
+- Azure
+- Linux
+- Networking
+- Docker
+- Kubernetes
+- Docker Swarm
+- Vagrant
 
-Repositório:
+**Development & Automation**
+- Python
+- FastAPI
+- Flask
+- Django
+- Git
+- GitHub Actions
+- GitLab CI/CD
+- Automated testing
 
-https://github.com/lfmos/NexVigil
+---
 
-K8s Security Lab
+## Portfolio
 
-Laboratório comparativo entre configurações Kubernetes inseguras e endurecidas, demonstrando controles de segurança em workloads e clusters.
+🌐 [Portfolio](https://lfmos.github.io)
 
-Inclui:
+You can explore my projects, technical background and downloadable CV there.
 
-Pod Security
+---
 
-execução non-root
+## Contact
 
-read-only filesystem
+- GitHub: [github.com/lfmos](https://github.com/lfmos)
+- Portfolio: [lfmos.github.io](https://lfmos.github.io)
 
-NetworkPolicy
+---
 
-least privilege
-
-Calico
-
-Checkov
-
-validação automatizada em CI
-
-Repositório:
-
-https://github.com/lfmos/k8s-security-lab
-
-GKE DevSecOps Lab
-
-Laboratório de referência para pipelines DevSecOps com Google Cloud e Kubernetes.
-
-Inclui:
-
-GitLab CI/CD
-
-GitHub Actions
-
-Google Kubernetes Engine
-
-Artifact Registry
-
-Workload Identity Federation
-
-Docker
-
-Trivy
-
-Kubernetes
-
-supply-chain security
-
-Repositório:
-
-https://github.com/lfmos/gke-devsecops-lab
-
-Swarm Vagrant Lab
-
-Laboratório local de infraestrutura com Docker Swarm e máquinas virtuais provisionadas com Vagrant.
-
-Inclui:
-
-1 manager
-
-3 workers
-
-Vagrant
-
-Docker Swarm
-
-overlay network
-
-rolling updates
-
-rollback
-
-healthchecks
-
-validações automatizadas em CI
-
-Repositório:
-
-https://github.com/lfmos/swarm-vagrant-lab
-
-OpsHelper
-
-Assistente técnico em Python baseado em conhecimento estruturado e matching determinístico para troubleshooting.
-
-Abrange cenários relacionados a:
-
-Linux
-
-Docker
-
-AWS
-
-Git
-
-redes
-
-SSH
-
-VPN
-
-O projeto possui testes automatizados e mantém a implementação simples e auditável, sem apresentar LLM, embeddings ou RAG como funcionalidades já implementadas.
-
-Repositório:
-
-https://github.com/lfmos/opshelper
-
-Apache Container Lab
-
-Laboratório de containerização utilizando Apache HTTP Server.
-
-Inclui:
-
-Dockerfile
-
-Docker Compose
-
-imagem própria
-
-healthcheck
-
-validação de build e runtime
-
-GitHub Actions
-
-Repositório:
-
-https://github.com/lfmos/apache-container-lab
-
-Laboratório OSINT em AWS
-
-Participação colaborativa em laboratório OSINT executado em AWS.
-
-Experiência prática envolvendo:
-
-Amazon EC2
-
-AWS Systems Manager
-
-Docker Compose
-
-SpiderFoot
-
-Neo4j
-
-TT-RSS
-
-Linux
-
-controle de acesso
-
-hardening
-
-documentação operacional
-
-Este projeto é apresentado como experiência colaborativa e não como projeto autoral deste portfólio.
-
-Tecnologias representadas
-
-O portfólio demonstra experiência prática com tecnologias e conceitos como:
-
-Python · FastAPI · Docker · Docker Compose · Docker Swarm · Kubernetes · GKE · Linux · AWS · Azure · Google Cloud · GitHub Actions · GitLab CI/CD · Vagrant · Trivy · Checkov · MITRE ATT&CK
-
-Áreas de atuação e interesse
-
-Segurança da Informação
-
-Cibersegurança
-
-Detection Engineering
-
-DevSecOps
-
-Cloud e Infraestrutura
-
-Containers e Orquestração
-
-Automação com Python
-
-Objetivo profissional
-
-Busco oportunidades em que segurança, desenvolvimento e infraestrutura possam trabalhar de forma integrada, com espaço para aplicar e evoluir conhecimentos em cibersegurança, cloud, DevSecOps, automação e engenharia de detecção.
-
-Sobre este portfólio
-
-O site foi desenvolvido em HTML e CSS e publicado com GitHub Pages.
-
-A versão em português está disponível na raiz do projeto, enquanto a versão em inglês está localizada em en/.
-
-O portfólio é atualizado conforme os projetos evoluem e novos laboratórios são concluídos.
-
-Autor
-
-Luís Filipe Medeiros
-
-GitHub: https://github.com/lfmos
+> Building security knowledge through practical labs, reproducible environments and documented engineering decisions.
