@@ -55,7 +55,7 @@ pip-audit
 
 Repositório:
 
-https://github.com/lfmos/Nexvigil
+https://github.com/lfmos/NexVigil
 
 K8s Security Lab
 
